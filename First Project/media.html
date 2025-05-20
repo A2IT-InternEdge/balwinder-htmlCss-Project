@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            min-height: 100vh;
+            background: #000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .box{
+            min-height: 200px;
+            width: 25%;
+            background: #04e440;
+            color: white;
+        }
+        @media screen and (min-width:0px) and (max-width:750px){
+            .outer{
+                flex-direction: column;
+            } 
+            .box{
+                margin-top: 10px;
+                width: 90%;
+                height: 100px;
+                background-color: aliceblue;
+                color: black;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur facilis illo eligendi consequatur reprehenderit assumenda natus incidunt omnis repellendus excepturi nobis saepe est sint, asperiores et maxime dolorum doloremque quia.</p>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur facilis illo eligendi consequatur reprehenderit assumenda natus incidunt omnis repellendus excepturi nobis saepe est sint, asperiores et maxime dolorum doloremque quia.</p>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur facilis illo eligendi consequatur reprehenderit assumenda natus incidunt omnis repellendus excepturi nobis saepe est sint, asperiores et maxime dolorum doloremque quia.</p>
+        </div>
+    </div>
+</body>
+</html>
