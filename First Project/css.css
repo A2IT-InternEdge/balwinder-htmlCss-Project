@@ -1,0 +1,708 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: large;
+    align-items: center;
+    background-color: transparent;
+    height: 120px;
+}
+.icons-items {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 40%;
+    color: white;
+}
+.icons-items a{
+    text-decoration: none;
+    color: white;
+}
+.icons-items a:hover{
+    color: blue;
+}
+.fonts{
+    display: flex;
+    list-style: none;
+}
+.icon{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+.logo img{
+
+    color: white;
+}
+.logo h1{
+    color: rgb(206, 144, 62);
+}
+.icon:hover{
+    color: coral;
+}
+
+/* section first */
+.background-image{
+    background-image: url("slide1-01.jpg.webp");
+    min-height:100vh;
+
+}
+
+.main{
+    min-width: 55%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+
+}
+.main .p1{
+    font-family: cursive;
+    font-size: 60px;
+    color: white;
+    line-height: 1.4;
+}
+.main .p2{
+    font-size: 90px;
+    color: white;
+    line-height: 1.5;
+    font-weight: 900;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+.btn{
+    height: 40px;
+    width: 135px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: darkorange;
+    border: none;
+}
+  
+   /* second section */
+
+.content{
+     display: flex;
+      align-items: center; 
+      height: 550px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+}
+.two img{
+    border-radius: 20px;
+    height: 380px;
+   width: 300px;
+}
+.one{
+    align-items: center;
+    margin-left: 10px;
+    padding: 40px;
+    
+}
+.p3{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+.p4{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.p5{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+}
+.p6{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.7;
+    color: #666666;
+}
+.two{
+     margin-left: 0px; 
+   flex-wrap: wrap;
+   width: 400px;
+}
+.two img:hover{
+    transform: scale(1.1);
+}
+  /* third section */
+
+ .bg-img{
+    background-image: url("bg-intro-01.jpg.webp");
+    min-height: 60vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}  
+.main-third{
+    min-width: 55%;
+    margin: auto;
+    text-align: center;
+    padding-top: 8%;
+}
+.main-third .p7{
+    font-family: cursive;
+    font-size: 60px;
+    color: white;
+   
+    color: red;
+}
+.main-third .p8{
+    font-size: 90px;
+    color: white;
+  
+    font-weight: 900;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+ /* section-four */
+.secfour{
+    height: 550px;
+    width: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourone{
+    height: 370px;
+    width: 300px;
+}
+.fourimg img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.fourimg img:hover{
+     transform: scale(1.1); 
+}
+.fourcont h2 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #222222;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.fourcont h2 a:hover{
+    color:red;
+}
+.fourcont h2{
+    margin-top: 15px;
+}
+.fourcont p{
+    margin-top: 15px;
+    color: #666666;
+}
+
+.foura a{
+    text-decoration: none;
+    color:#666666;
+}
+.foura a:hover{
+    color: red;
+}
+
+/* section fifth */
+.fifth{
+    background-image: url("fifthbackground.webp");
+    height: 950px;
+}
+.fifth h1{
+    padding-top: 80px;
+    text-align: center;
+    color: red;
+}
+.fifth h2{
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.fifthone{
+    /* border: 1px solid red; */
+    height: 650px;
+    margin: 20px 50px 0px 50px;
+    display: flex;
+}
+.fifthtwo{
+    /* border: 1px solid rgb(38, 0, 255); */
+    width: 900px;
+    height: 650px;
+    position: relative;
+}
+.fifth1{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-left: 50px;
+    height: 410px; 
+    width: 330px;
+    background-image: url("fifth1.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.fifth1:hover{
+    transform: scale(1.1);
+}
+.fifth1 button{
+    margin-top: 150px;
+    margin-left: 120px;
+    height: 50px;
+    width: 100px;
+    letter-spacing: 2px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+.fifth1 button:hover{
+    background-color: red;
+    color: white;
+}
+.fifth2{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    height: 410px; 
+    width: 330px;
+    margin-left: 420px;
+    background-image: url("fifth2.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.fifth2:hover{
+    transform: scale(1.1);
+}
+.fifth2 button{
+    margin-top: 155px;
+    margin-left: 120px;
+    height: 50px;
+    width: 110px;
+    letter-spacing: 2px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+.fifth2 button:hover{
+    background-color: red;
+    color: white;
+}
+.fifth3{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-top: 445px;
+    margin-left: 60px;
+    height: 180px;
+    width: 690px;
+    background-image: url("fifth3.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.fifth3:hover{
+    transform: scale(1.1);
+}
+.fifth3 button{
+    margin-top: 70px;
+    margin-left: 220px;
+    height: 50px;
+    width: 220px;
+    letter-spacing: 2px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+.fifth3 button:hover{
+    background-color: red;
+    color: white;
+}
+.fifththree{
+    /* border: 1px solid gold; */
+    width: 500px;
+    position: relative;
+}
+.fifth4{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    background-image: url("fifth4.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.fifth4:hover{
+    transform: scale(1.1);
+}
+.fifth4 button{
+    margin-top: 70px;
+    margin-left: 140px;
+    height: 50px;
+    width: 130px;
+    letter-spacing: 2px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+.fifth4 button:hover{
+    background-color: red;
+    color: white;
+}
+.fifth5{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    margin-top: 220px;
+    background-image: url("fifth5.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.fifth5:hover{
+    transform: scale(1.1);
+}
+.fifth5 button{
+    margin-top: 70px;
+    margin-left: 140px;
+    height: 50px;
+    width: 130px;
+    letter-spacing: 2px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+.fifth5 button:hover{
+    background-color: red;
+    color: white;
+}
+.fifth6{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    margin-top: 440px;
+    background-image: url("fifth6.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.fifth6:hover{
+    transform: scale(1.1);
+}
+.fifth6 button{
+    margin-top: 70px;
+    margin-left: 140px;
+    height: 50px;
+    width: 130px;
+    letter-spacing: 2px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+.fifth6 button:hover{
+    background-color: red;
+    color: white;
+}
+
+/* section sixth */
+.sixth{
+    background-image: url("sixthbgimg.webp");
+    height: 800px;
+}
+.sixth h2{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    padding-top: 70px;
+    /* font-family: cursive; */
+    font-family: Courgette;
+}
+.sixth h3{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+}
+.sixth1{
+     /* border: 1px solid white;  */
+    height: 380px;
+    width: 1100px;
+    margin-left: 130px;
+    margin-top: 80px;
+    display: flex;
+}
+.sixtha{
+    /* border: 1px solid rgb(27, 12, 188); */
+    height: 380px;
+    width: 440px;
+    background-image: url("sixthimg.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sixthb{
+    /* border: 1px solid rgb(167, 215, 35); */
+    height: 380px;
+    width: 660px;
+    background-color: rgba(255, 255, 255, 0.824);
+    text-align: center;
+}
+.sixthb h4{
+    padding-top: 90px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color: #d51212;
+}
+.sixthb p{
+    padding-top: 40px;
+    color: #666666;
+}
+.sixthbb{
+    font-size: larger;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.sixthbb:hover{
+    color: red;
+}
+/* section seventh */
+.seventh{
+    background-image: url("seventhbgimg.webp");
+    height: 680px;
+    display: flex;
+}
+.seventhone{
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    padding-top: 80px;
+}
+.seventhone h3{
+    font-size: 28px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color: #d51212;
+}
+.seventhone p{
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 8px;
+    font-family: Courgette;
+    font-weight: bold;
+}
+.seventhlabel{
+    font-size: 18px;
+    padding-left: 0%;
+    padding-top: 60px;
+    color: #666666;
+}
+.seventhlabel input{
+    height: 38px;
+    width: 220px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.seventhtwo img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.seventhtwo img:hover{
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+.seventhbtn{
+    margin-top: 30px;
+    height: 45px;
+    width: 180px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    background-color: #666666;
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+}
+.seventhbtn:hover{
+    background-color: red;
+}
+/* eight section */
+.eight{
+    height: 600px;
+    align-items: center;
+    text-align: center;
+}
+.eight img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid red;
+    margin-top: 20px;
+}
+.eight h3{
+    padding-top: 60px;
+    font-size: 29px;
+    font-family:Cougrette;
+    color: red;
+}
+.eightpara{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #4c4444;
+
+}
+.eightreview{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 6px;
+}
+.eight i{
+    margin-top: 40px;
+    color: red;
+}
+.eightname{
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/* ninth section */
+.ninthbgimg{
+    background-image: url("ninthbgimg.webp");
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main-ninth{
+    min-width: 55%;
+    margin: auto;
+    text-align: center;
+    padding-top: 12%;
+}
+.ninthh2{
+    font-family: cursive;
+    font-size: 35px;
+    color: red;
+}
+.ninthp{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+}
+.main-ninth i{
+    height: 60px;
+    width: 60px;
+    font-size: 63px;
+    color:#fdfbfb;
+    border-radius: 50%;
+    /* padding-top: 10px; */
+    margin-top: 20px;
+}
+.main-ninth i:hover{
+    color: rgb(252, 10, 10);
+    transform: scale(1.4);
+    transition: all 0.6s;
+    background-color:white;
+}
+/* section tenth */
+.tenthh{
+    text-align: center;
+    color: red;
+    font-family: cursive;
+    padding-top: 100px;
+    font-size: 25px;
+}
+.tenthp{
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 4px;
+}
+/* section eleventh */
+.eleventhbgimg{
+    background-image: url("eleventhbgimg.webp");
+    height: 180px;
+    width: auto;
+    /* padding-left: 350px;
+    padding-top: 90px;
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 2px;
+    letter-spacing: 4px; */
+}
+.eleventh-main{
+    display: flex;
+    padding-top: 85px;
+}
+.eleventhone{
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding-left: 350px;
+    padding-top: 10px;
+}
+.eleventhtwo input{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid rgb(167, 155, 155);
+    padding-left: 30px;
+    margin-left: 8px;
+}
+.eleventhtwo i{
+    margin-left: 25px;
+    font-size: 30px;
+}
+.elevenththree button{
+    margin-left: 20px;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.elevenththree button:hover{
+    background-color: red;
+}
